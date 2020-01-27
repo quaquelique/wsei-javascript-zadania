@@ -5,21 +5,24 @@
  * Napisz komentarze dla kazdej z linijek kodu
  */
 
-//Twoj komentarz ...
+// Definicja funkcji 'sortArray'.
 function sortArray() {
 
-    //Twoj komentarz ...
+    // Deklaracja i zainicjowanie tablicy 'points'.
     var points = [41, 3, 6, 1, 114, 54, 64];
 
-    //Twoj komentarz ...
+    // Wywolanie metody array.sort z anonimowa funkcja porownujaca jako parametrem.
     points.sort(function (a, b) {
-        //Twoj komentarz ...
+        // Funkcja zwraca liczbe mniejsza od 0 jesli b > a, dzieki czemu metoda array.sort zapisze 'a' jako pierwszy
+        // element, 'b' jako drugi w kolejnosci.
         return a - b;
     });
 
-    //Twoj komentarz ...
+    // Instrukcja zwracajaca posortowana tablice 'points'.
     return points;
 }
 
-//Twoj komentarz ...
+// Wywolanie funkcji 'sortArray'
 sortArray();
+
+// console.log(sortArray().toString());

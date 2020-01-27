@@ -10,5 +10,18 @@ callOtherFunction(function (a, b) {
     console.log("Pierwsza liczba:", a);
     console.log("Druga liczba", b)
     console.log("Wynik", a + b)
-})
+});
+
+console.log();
+callOtherFunction(function ()
+{
+    console.log("Hello world!\n");
+});
+
+callOtherFunction(function (a, b)
+{
+    console.log("a: ", a);
+    console.log("b: ", b);
+    console.log("a do potegi b: ", Math.pow(a, b));
+});
 

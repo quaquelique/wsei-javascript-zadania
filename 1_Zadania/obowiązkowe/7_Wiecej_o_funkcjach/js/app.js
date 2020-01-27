@@ -5,28 +5,29 @@
  */
 
 
-//Twoj komentarz ...
+// Sygnatura funkcji 'jeden'
 function jeden() {
 
-    //Twoj komentarz ...
+    // Definicja zmiennej 'zmienna1' i przypisanie do niej wartosci '1' typu 'number'.
     var zmienna1 = 1;
 
-    //Twoj komentarz ...
+    // Sygnatura zagniezdzonej funkcji 'dwa'.
     function dwa() {
 
-        //Twoj komentarz ...
+        // Instrukcja wypisania na konsoli zmiennej 'zmienna1'.
         console.log(zmienna1);
 
-        //Twoj komentarz ...
+        // Definicja zmiennej 'zmienna2' i przypisanie do niej wartosci '3' typu 'number'.
         var zmienna2 = 3;
     }
 
-    //Twoj komentarz ...
+    // Wywolanie funkcji 'dwa'
     dwa();
 
-    //Twoj komentarz ...
+    // Instrukcja wypisania na konsoli zmiennej 'zmienna2'.
+    // NIE DZIALA, poniewaz zmienna 'zmienna2' jest zdefiniowana lokalnie wewnatrz funkcji 'dwa'.
     console.log(zmienna2)
 }
 
-//Twoj komentarz ...
+// Wywolanie funkcji 'jeden'.
 jeden()
