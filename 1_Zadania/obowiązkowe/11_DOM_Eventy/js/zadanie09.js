@@ -23,6 +23,13 @@ document.addEventListener("DOMContentLoaded", function () {
     }
     innerFuncOne();
 
-  });
+    // Rozwiazanie:
+    /*b.innerFuncOne = function () {
+      // Tutaj this wskazuje na element Window, bo funkcja została
+      //wywołana bez żadnego kontekstu.
+      console.log("innerFuncOne: ", this);
+    }
+    this.innerFuncOne();*/
 
-})
+  });
+});
