@@ -1,9 +1,3 @@
-/*
- <div class="fullScreen">
-   <img src="./images/wrong.png">
-   <button class="close">Close</button>
- </div>
- */
 document.addEventListener('DOMContentLoaded', () =>
 {
     var elements = document.querySelectorAll('li');
