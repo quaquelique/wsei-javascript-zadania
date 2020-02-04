@@ -1,6 +1,3 @@
-/*
- <span class="tooltipText">Text tooltipa</span>
- */
 document.addEventListener('DOMContentLoaded', () =>
 {
     var tooltips = document.querySelectorAll('.tooltip');
