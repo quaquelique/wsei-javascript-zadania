@@ -1,4 +1,5 @@
-class Polygon {
+
+export class Polygon {
   constructor(height, width) {
     this.name = 'Polygon';
     this.height = height;
