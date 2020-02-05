@@ -16,3 +16,13 @@ let people = [
         profession: "trener"
     }
 ];
+
+var setFunnyName = (...args) =>
+{
+    people.unshift(...args);
+};
+
+setFunnyName({person: 'Beata Kozidrak', profession: 'piosenkarz'},
+            {person: 'Donald Trump', profession: 'prezydent'},
+            {person: 'Noriaki Kasai', profession: 'legenda'});
+console.log(people);
